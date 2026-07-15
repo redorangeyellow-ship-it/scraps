@@ -326,7 +326,7 @@ const menuItems = [
         iconURL: filesExtensionIcon,
         insetIconURL: turbowarpIcon,
         tags: ['turbowarp', 'datamgmt'],
-        description: 'Blocks for reading and creating files.',
+        description: 'Blocks for read files.',
         featured: true
     },
     {
@@ -357,7 +357,7 @@ const menuItems = [
         description: 'Blocks for handling JSON objects and Arrays.',
         featured: true
     },
-    {
+    /*{
         name: 'Particle Engine',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Particle-Engine.js',
         iconURL: sharkpoolPEIcon,
@@ -365,7 +365,7 @@ const menuItems = [
         description: 'Create powerful Particle Engines without Clones',
         extDeveloper: 'SharkPool',
         featured: true
-    },
+    },*/
 
     {
         name: 'Physics',
