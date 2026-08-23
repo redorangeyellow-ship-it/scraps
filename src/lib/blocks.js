@@ -19,7 +19,7 @@ export default function (vm) {
                         return start.concat(menuOptionsFn());
                     }
                 }
-            ],
+    
             inputsInline: true,
             output: 'String',
             colour: colors.secondary,
@@ -53,8 +53,7 @@ export default function (vm) {
         return {
             message0: ScratchBlocks.Msg.SENSING_OF,
             args0: [
-                {
-                    type: 'field_dropdown',
+                
                     name: 'PROPERTY',
                     options: function () {
                         return menuOptionsFn();
